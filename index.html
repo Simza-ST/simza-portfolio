@@ -1,131 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simphiwe | Portfolio Website</title>
+    <meta name="description" content="Portfolio of Simphiwe Mabone, a passionate Software Developer specializing in full-stack development.">
+    <meta name="keywords" content="Simphiwe Mabone, Software Developer, Full-Stack Developer, Portfolio">
+    <meta name="author" content="Simphiwe Mabone">
+    <title>Simphiwe Mabone | Software Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="profile.jpg">
 </head>
-
 <body>
-
     <!-- Header -->
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <a href="#home" class="logo">Simphiwe Mabone</a>
+        <i class="fa-solid fa-bars" id="menu-icon" aria-label="Toggle Menu"></i>
         <nav class="navbar">
-            <a href="#home">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
+    <!-- Home Section -->
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hello, I am</h1>
-            <h1>Simphiwe Mabone</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <h1>Hi, I'm <span>Simphiwe Mabone</span></h1>
+            <h3>Software Developer | <span class="multiple-text"></span></h3>
             <p>
-                I am a dedicated developer with a solid understanding of software development, programming languages,
-                and web technologies. Eager to apply academic knowledge and technical skills in a real-world
-                setting. Passionate about learning new technologies and contributing to innovative projects.
+                Passionate about crafting innovative web and mobile solutions. With expertise in full-stack development, 
+                I transform ideas into reality through clean code and creative problem-solving.
             </p>
             <div class="social-media">
-                <a href="https://www.facebook.com/simza.st"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/simza_st"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/simphiwe-mabone-8a920a252"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/simphiwe-mabone-8a920a252" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Simza-ST" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/simza_st" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
-            <a href="Simphiwe Resume.pdf" class="btn">Download CV/Resume</a>
+            <a href="Simphiwe_Resume.pdf" class="btn" download>Download Resume</a>
         </div>
         <div class="home-img">
-            <img src="pic.jpg" alt="Simphiwe's photo">
+            <img src="profile.jpg" alt="Simphiwe Mabone's portrait" loading="lazy">
         </div>
     </section>
 
-    <!-- About -->
+    <!-- About Section -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="pic.jpg" alt="Simphiwe's photo">
+            <img src="profile.jpg" alt="Simphiwe Mabone's portrait" loading="lazy">
         </div>
         <div class="about-content">
-            <h2 class="heading">
-                About <span>Me</span>
-            </h2>
-
+            <h2 class="heading">About <span>Me</span></h2>
             <p>
-                Hi there! My name is Simphiwe Mabone, and I'm a passionate Software Developer, specializing in
-                full-stack
-                development. I thrive on solving complex problems and creating innovative solutions in the realm of web
-                and mobile applications.
-            </p>
-
-            <h3>Skills and Expertise</h3>
-            <p>
-                <b>Programming Languages:</b> JavaScript, Java, Kotlin, PHP<br>
-                <b>Databases:</b> MySQL, MongoDB<br>
-                <b>Frameworks and Libraries:</b> React, Node.js<br>
-                <b>Other Skills:</b> Agile Methodologies, Problem-Solving, Team Collaboration
+                I'm Simphiwe Mabone, a dedicated Software Developer with a focus on full-stack development. 
+                My passion lies in solving complex challenges and building scalable, user-centric applications. 
+                I thrive in collaborative environments and am committed to continuous learning and innovation.
             </p>
             <h3>Education</h3>
             <p>
-                Diploma in Computer Science, Tshwane University of Technology, 2024
+                <strong>Diploma in Computer Science</strong><br>
+                Tshwane University of Technology, 2024
             </p>
-            <h3>Contact Me</h3>
+            <h3>Professional Background</h3>
             <p>
-                Feel free to reach out to me for any professional inquiries or collaborations. You can contact me via
-                simzast123@gmail.com, connect with me on <a
-                    href="https://www.linkedin.com/in/simphiwe-mabone-8a920a252"><span>LinkedIn</span></a>, or follow me
-                on <a href="https://github.com/Simza-ST"><span>GitHub</span></a>.
+                Experienced in developing robust web and mobile applications using modern technologies. 
+                Proficient in Agile methodologies, I deliver high-quality code and contribute to team success.
             </p>
-
+            <a href="#contact" class="btn">Get in Touch</a>
         </div>
     </section>
 
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <p><i class="fab fa-java"></i> Java</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-java"></i> Spring Boot</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fas fa-leaf"></i> Thymeleaf</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fas fa-exchange-alt"></i> RESTful API</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fas fa-database"></i> MySQL</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-js"></i> JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fas fa-mobile-alt"></i> Kotlin</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-php"></i> PHP</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-html5"></i> HTML5</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-css3-alt"></i> CSS3</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fas fa-tools"></i> Postman</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-git-alt"></i> Git</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p><i class="fab fa-github"></i> GitHub</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="projects" class="projects">
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
         <h2 class="heading">My <span>Projects</span></h2>
         <div class="projects-container">
-            <div class="projects-box">
-                <img src="arifarane.jpg" alt="Project 1">
-                <div class="projects-layer">
+            <div class="project-box">
+                <img src="arifarane.jpg" alt="Arifarane Project" loading="lazy">
+                <div class="project-layer">
                     <h4>Arifarane</h4>
-                    <p>Developed a website that will help the arifarane organazation to get sponsors using Spring boot.
+                    <p>
+                        A Spring Boot-based website designed to help the Arifarane organization attract sponsors 
+                        and showcase their initiatives.
                     </p>
-                    <a href="https://github.com/Simza-ST/Arifarane-web-app-v2.git"><i class="fas fa-link"></i></a>
+                    <a href="https://github.com/Simza-ST/Arifarane-web-app-v2.git" target="_blank" aria-label="Arifarane Project Link">
+                        <i class="fas fa-link"></i>
+                    </a>
                 </div>
             </div>
-            <div class="projects-box">
-                <img src="ClothingDesign.gif" alt="Project 2">
-                <div class="projects-layer">
+            <div class="project-box">
+                <img src="ClothingDesign.gif" alt="Clothing Design System" loading="lazy">
+                <div class="project-layer">
                     <h4>Clothing Design System</h4>
-                    <p>Developed a Custom Clothing Design System that facilitates the creation of personalized fashion
-                        pieces using PHP.
-
+                    <p>
+                        A PHP-based platform enabling users to create personalized fashion designs with an intuitive interface.
                     </p>
-                    <a href="https://github.com/Simza-ST/Clothing-Design.git"><i class="fas fa-link"></i></a>
+                    <a href="https://github.com/Simza-ST/Clothing-Design.git" target="_blank" aria-label="Clothing Design Project Link">
+                        <i class="fas fa-link"></i>
+                    </a>
                 </div>
             </div>
-
         </div>
     </section>
 
+    <!-- Contact Me Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <p class="sub-heading">Let's collaborate on your next project!</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>I'm always open to discussing new opportunities, collaborations, or innovative projects. Reach out to me via the form or directly through the contact details below.</p>
+                <ul class="contact-details">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:simzast123@gmail.com">simzast123@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/simphiwe-mabone-8a920a252" target="_blank">LinkedIn Profile</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Simza-ST" target="_blank">GitHub Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2024 by @Simza-ST | All Right Reserved.</p>
+            <p>© 2025 Simphiwe Mabone. All Rights Reserved.</p>
         </div>
         <div class="footer-iconTop">
-            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            <a href="#home" aria-label="Back to Top"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
