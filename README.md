@@ -46,8 +46,7 @@ Hello! My name is **Simphiwe Mabone**. I am a passionate and results-driven Soft
 
 - [LinkedIn](https://www.linkedin.com/in/simphiwe-mabone)  
 - [GitHub](https://github.com/Simza-ST)  
-- [Twitter](https://twitter.com/simphiwe_mabone)  
-- [Email](mailto:simphiwe.mabone@example.com)
+- [Email](mailto:simphiwe.mabone.02@gmail.com)
 
 ---
 
