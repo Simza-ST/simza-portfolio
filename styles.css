@@ -255,6 +255,68 @@ span {
     transition: width 1.5s ease-in-out;
 }
 
+.experience {
+    background: var(--bg-color);
+}
+
+.experience-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+.experience-box {
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    padding: 3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-box:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 0 1.5rem var(--main-color);
+}
+
+.experience-box h3 {
+    font-size: 2.4rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.experience-box span {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.experience-date {
+    font-size: 1.6rem;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.experience-box ul {
+    list-style: none;
+}
+
+.experience-box ul li {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    position: relative;
+    padding-left: 2rem;
+}
+
+.experience-box ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
 .projects {
     background: var(--second-bg-color);
 }
